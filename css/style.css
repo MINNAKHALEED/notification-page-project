@@ -1,0 +1,239 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.main{
+  width: 1440px;
+  height: 991px;
+  background-color:#F7FAFD ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middlediv{
+  width: 730px;
+  height: 839px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 13px;
+}
+
+.fristdiv{
+  width: 668px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftdiv{
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.textleftdiv{
+  color: #1C202B;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.btn{
+  all: unset;
+  width: 32px;
+  height: 25px;
+  border-radius: 5px;
+  background-color:#0A327B ;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+.textright{
+  color: #5E6778;
+  font-size: 16px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.seconddiv, .thirddiv, .fourdiv{
+  width: 670px;
+  height: 80px;
+  background-color:#F7FAFD ; 
+  display: flex;
+  column-gap: 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.img{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+label{
+color: #1C202B;
+font-size: 16px;
+font-weight: bold;
+}
+
+.middlespan{
+  color: #5E6778;
+  font-weight: 300;
+}
+.lastspan{
+  color: #5E6778;
+  font-weight: 500;  
+}
+.circle{
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #F65552;
+  margin-left: 5px;
+}
+.month{
+  color: #939CAD;
+  font-weight: 300;
+}
+
+.rightfourdiv .lastspan{
+  color: #0A327B;
+  font-weight: bold;
+}
+
+.fivediv{
+  width: 670px;
+  height: 180px;
+  display: flex;
+  column-gap: 15px;
+}
+
+
+.rightfivediv{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.bottomdiv{
+  width:610px ;
+  height: 97px; 
+  padding: 15px;
+  font-size: 16px;
+  color: #5E6778;
+  line-height: 1.5;
+  border: 1px solid #DDE7EE;
+}
+
+.sixdiv{
+  width: 670px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between; 
+  
+}
+
+.allleft{
+  display: flex;
+  column-gap: 15px;
+}
+
+.rightimg{
+  width: 45px;
+  height: 45px;
+}
+
+.sevendiv{
+  width: 670px;
+  height: 105px;
+  display: flex;
+  column-gap: 15px;
+}
+
+.sevendiv .lastspan{
+  font-weight: bold;
+}
+
+.lastdiv{
+  width: 670px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.rightlastdiv .lastspan{
+  color: #0A327B;
+  font-weight: bold;
+}
+
+@media(max-width: 500px){
+   .main{
+  width: 500px;
+  } 
+  .middlediv{
+    width: 375px;
+    height: 901px;
+  }
+  .fristdiv{
+    width: 343px;
+    height: 25px;
+  }
+  .seconddiv, .fourdiv{
+    width: 343px;
+    height: 89px;
+  }
+  .thirddiv, .lastdiv{
+    width: 343px;
+    height: 71px;
+  }
+  .fivediv{
+    width: 343px;
+    height: 223px;
+  }
+  .bottomdiv{
+    width: 270px;
+    height: 122px;
+    font-size: 13px;
+  }
+  .img, .rightimg{
+    width: 39px;
+    height: 39px;
+  }
+  .month{
+    font-size: 14px;
+    font-weight: medium;
+  }
+  label{
+    font-size: 14px;
+  }
+  .middlespan{
+    font-size: 14px;
+  }
+  .sevendiv .lastspan{
+    font-size: 15px;
+    
+  }
+  .sixdiv{
+    width: 345px;
+    height: 89px;
+  }
+  .sevendiv{
+    width: 343px;
+    height: 107px;
+  }
+  .rightlastdiv .lastspan, .rightfourdiv .lastspan{
+    font-size: 14px;
+  }
+}
